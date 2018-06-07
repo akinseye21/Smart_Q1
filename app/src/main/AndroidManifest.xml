@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ndif_yemmanuel.smart_q">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="SmartQ"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="SmartQ"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:label="Login" />
+        <activity
+            android:name=".HomePage"
+            android:label="SmartQ" />
+        <activity
+            android:name=".TransactionPanel"
+            android:label="Transactions" />
+        <activity
+            android:name=".WalletPanel"
+            android:label="My Wallet" />
+        <activity
+            android:name=".ProfilePanel"
+            android:label="Profile" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="Change Password" />
+        <activity
+            android:name=".HospitalRegistration"
+            android:label="Registration" />
+        <activity
+            android:name=".PaymentSucessful"
+            android:label="Payment Successful" />
+        <activity
+            android:name=".select_clinic"
+            android:label="Registration" />
+        <activity
+            android:name=".select_hospital"
+            android:label="Consultation" />
+        <activity
+            android:name=".maitama_reg"
+            android:label="Registration" />
+        <activity
+            android:name=".maitama_details"
+            android:label="Registration" />
+        <activity
+            android:name=".maitama_consult"
+            android:label="Consultation" />
+        <activity android:name=".gopd1" />
+        <activity android:name=".gopd2" />
+        <activity
+            android:name=".gopdfasttrack"
+            android:label="GOPD Fast Track" />
+        <activity
+            android:name=".edit_profile"
+            android:label="Edit Profile" />
+        <activity
+            android:name=".signup"
+            android:label="SignUp" />
+        <activity
+            android:name=".NotFeelingGood"
+            android:label="Not Feeling Good" />
+        <activity
+            android:name=".EnterCardDetails"
+            android:label="Enter Card Details" />
+
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="pk_test_19f6f5aa1a9d106020e4ceeb14cbd5d8abf9a812" />
+
+        <activity
+            android:name=".NotGoodResult"
+            android:label="Result" />
+        <activity android:name=".NavigationHeader" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".RegAfterComplain"
+            android:label="Registration"/>
+    </application>
+
+</manifest>

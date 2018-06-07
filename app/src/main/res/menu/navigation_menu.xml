@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/home_id"
+        android:icon="@drawable/homeeee"
+        android:iconTint="#ffffff"
+        android:iconTintMode="add"
+        android:title="Home"/>
+
+    <item android:id="@+id/transaction_id"
+        android:icon="@drawable/naira"
+        android:title="Transaction"/>
+
+    <item android:id="@+id/wallet_id"
+        android:icon="@drawable/walletttt"
+        android:title="My wallet"/>
+
+    <item android:id="@+id/profile_id"
+        android:icon="@drawable/userrrr"
+        android:title="Profile"/>
+
+    <item android:id="@+id/change_password_id"
+        android:icon="@drawable/lockkkk"
+        android:title="Change Password"/>
+
+    <item android:id="@+id/logout_id"
+        android:icon="@drawable/logoutttt"
+        android:title="Logout"/>
+
+    </group>
+
+</menu>
